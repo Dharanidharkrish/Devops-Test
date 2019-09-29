@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 
-public class {
+public class Demo{
 public static void main(String []args)
 {
 	System.out.println("Dharanidhar");
