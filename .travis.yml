@@ -2,3 +2,10 @@ language: java
 
 jdk:
   - openjdk8
+  
+ deploy:
+    - provider: s3
+      access_key_id: AKIAUYP5QOXSDSUNHSPL
+      secret_access_key: 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
+      bucket: 'mytravis-testing'
+      skip_cleanup: true
